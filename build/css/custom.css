@@ -18,7 +18,7 @@ header section {
   background-position:left;
   /*border-right: 1px solid black;*/
   float: left;
-  width: 60%;
+  width: 55%;
   min-height: 300px;
 }
 
@@ -26,7 +26,7 @@ header section {
   float: left;
   display: inline;
   margin: 90px 10px 10px;
-  width: 30%;
+  width: 35%;
 }
 
 .contact-info .title {
@@ -80,7 +80,6 @@ ul.school {
 .section-body ul li, ul.school li {
   list-style-type: none;
   margin: 10px 0;
-  /*border-bottom: 1px #AAA dotted;*/
 }
 
 ul.school li .school-location {
@@ -118,9 +117,9 @@ ul.school li .school-years {
   margin: 10px 0;
 }
 
-.skills ul {
+/*.skills ul {
   column-count: 2;
-}
+}*/
 
 .skills li {
   display: flex;
@@ -130,3 +129,24 @@ ul.school li .school-years {
 .skills li .skill-name, .skills li .skill-rating {
   flex: 1 100%;
 }
+
+@media only screen and (max-width: 800px) {
+  .contact-info, .name-logo {
+    width: 100%;
+  }
+  .name-logo {
+    margin-left: 25px;
+  }
+  .contact-info {
+    margin-top: 10px;
+  }
+  article {
+    display: block;
+  }
+  .split-jobs-section {
+    flex-flow: row wrap;
+  }
+  .job-details, .job-description {
+    flex: 1 100%;
+  }
+} 
