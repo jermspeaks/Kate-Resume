@@ -128,12 +128,6 @@ ul.school li .school-years {
   margin: 10px 0;
 }
 
-.skills ul {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
-}
-
 .skills li {
   display: -webkit-flex;
   display: -ms-flexbox;
