@@ -162,6 +162,9 @@ ul.school li .school-years {
     display: block;
     margin: 10px;
   }
+  .section-body ul {
+    padding-left: 5px;
+  }
   .split-jobs-section {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
