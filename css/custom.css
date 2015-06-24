@@ -145,17 +145,22 @@ ul.school li .school-years {
 }
 
 @media only screen and (max-width: 800px) {
+  header {
+    margin: 20px;
+  }
   .contact-info, .name-logo {
     width: 100%;
   }
   .name-logo {
-    margin-left: 25px;
+    margin-left: 10px;
   }
   .contact-info {
+    margin-left: 0;
     margin-top: 10px;
   }
   article {
     display: block;
+    margin: 10px;
   }
   .split-jobs-section {
     -webkit-flex-flow: row wrap;
@@ -166,6 +171,9 @@ ul.school li .school-years {
     -webkit-flex: 1 100%;
         -ms-flex: 1 100%;
             flex: 1 100%;
+  }
+  .skills ul {
+    padding-left: 10px;
   }
 } 
 /*# sourceMappingURL=custom.css.map */
